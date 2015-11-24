@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="hibernate-entities">
+    <output-path>$PROJECT_DIR$/classes/artifacts/hibernate_entities/target</output-path>
+    <root id="archive" name="hibernate-entities.war">
+      <element id="javaee-facet-resources" facet="hibernate-entities/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hibernate-entities" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
